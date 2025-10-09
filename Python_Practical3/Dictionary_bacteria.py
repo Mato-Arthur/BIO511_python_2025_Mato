@@ -8,10 +8,10 @@ for key_patient, value_bact_list in data.items():
 # add a line to see if the value (list) has the bacterial strain 'bac889Ytd'. 
 # If it does it should return 'True'. If not, it should say 'False'.
 
-for key_patient, value_bact_list in data.items():  
-  print(key_patient)
-  print(value_bact_list)
-  'bac889Ytd' in value_bact_list
+#for key_patient, value_bact_list in data.items():  
+ # print(key_patient)
+  #print(value_bact_list)
+  #'bac889Ytd' in value_bact_list
 
 unique_bacteria = list()  # Create an empty list to store unique bacterial strains.
 for value_bact_list in data.values():  # Loop through the values (lists of bacterial strains).

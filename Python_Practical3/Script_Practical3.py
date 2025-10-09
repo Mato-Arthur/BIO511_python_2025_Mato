@@ -11,6 +11,6 @@ print(mylist[0])
 Looplist = ["WoW", "Such", "a", "cool", "Stop", "List", "bro"]
 for index, item in enumerate (Looplist, start=1):
     print(index, item)
-    if item == "Stop":
+    if index == 5:
         break
 print("Loop is done")
